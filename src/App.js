@@ -5,12 +5,14 @@ import Textcontent from './components/Textcontent/Textcontent';
 import './App.css';
 
 class App extends Component {
+
   render(){
+    let route = window.location.pathname;
     return (
       <div className="App">
         <div className="foxhole1"><Navi/></div>
-        <div class="foxhole2"><Textbar/></div>
-        <div class="foxhole3"><Textcontent/></div>
+        <div className="foxhole2"><Textbar/></div>
+        <div className="foxhole3"><Textcontent route={route}/></div>
       </div>
     );
   }
