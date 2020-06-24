@@ -9,7 +9,7 @@ const Textbar = () => {
 
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
             <Row>
-                <Col sm={5}>
+                <Col sm={5} style={{margin:0,padding:0}}>
 
                 <ListGroup className="thelist">
                     <ListGroup.Item action href="#link1">
@@ -25,8 +25,7 @@ const Textbar = () => {
 
                 </Col>
 
-                
-                <Col sm={6}>
+                <Col sm={7} style={{margin:0,padding:0}}>
 
                 <Tab.Content className="thebrief">
                     <Tab.Pane eventKey="#link1">
