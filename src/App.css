@@ -1,91 +1,29 @@
 .App {
     text-align: center;
   }
-  
-  .foxhole1{
-    background-color: #61dafb;
-    position: sticky; 
-    top: 0px;
-    width: 100vw;
-  }
-/* 
-  .container{
-    position: absolute;
-    width:100vw;
-    height:100vw;
-    padding:0;
-    padding-top:55.99px;
-    margin:0;
-    text-align: center;
-  }
 
-  .row{
-    margin:0;
-  }
-  .col{
-    padding:0;
-  }
+.foxhole1{
+  position: fixed; 
+  top: 0px;
+  width: 100vw;
+  border-bottom: 1px solid rgb(230,232,236);
+}
 
-  .textcontent{
-    text-align: justify;
-    width:600px;
-  } */
+.foxhole2{
+  background-color: rgb(250,250,250);
+  position: fixed;
+  top:56.99px;
+  height:100vh;
+  width:30vw;
+  border-right: 1px solid rgb(230,232,236);
+}
 
-  .grid {
-    /* position: relative;;
-    margin-top:55.99px; */
-    height:100vw;
-    display:grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 100%;
-  }
+.foxhole3{
+  background-color: white;
+  float:right;
+  margin-top:56.99px;
+  left:30vw;
+  width:70vw;
+  text-align: justify;
+}
 
-  .foxhole2{
-    background-color: lightgreen;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    
-  }
-
-  .foxhole3{
-    background-color: antiquewhite;
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  
-
-  /* .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-   */

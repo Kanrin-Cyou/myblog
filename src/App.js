@@ -7,13 +7,11 @@ import './App.css';
 class App extends Component {
   render(){
     return (
-      <div className="App">     
+      <div className="App">
         <div className="foxhole1"><Navi/></div>
-        <div className="grid">
-          <div class="foxhole2"><Textbar/></div>
-            <div class="foxhole3"><Textcontent/></div>
-          </div>
-        </div>
+        <div class="foxhole2"><Textbar/></div>
+        <div class="foxhole3"><Textcontent/></div>
+      </div>
     );
   }
 }

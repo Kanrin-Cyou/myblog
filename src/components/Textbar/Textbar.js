@@ -9,34 +9,50 @@ const Textbar = () => {
 
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
             <Row>
-                <Col sm={5} style={{margin:0,padding:0}}>
-
-                <ListGroup className="thelist">
-                    <ListGroup.Item action href="#link1">
-                    HTML&CSS
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="#link2">
-                    JavaScript
-                    </ListGroup.Item>
-                    <ListGroup.Item action href="#link3">
-                    React&Redux
-                    </ListGroup.Item>
-                </ListGroup>
+                <Col sm={4} style={{margin:0,padding:0}}>
+                    <ListGroup>
+                        <ListGroup.Item className="theclass" action href="#link1">
+                        HTML&CSS
+                        </ListGroup.Item>
+                        <ListGroup.Item className="theclass" action href="#link2">
+                        JavaScript
+                        </ListGroup.Item>
+                        <ListGroup.Item className="theclass" action href="#link3">
+                        React&Redux
+                        </ListGroup.Item>
+                        <ListGroup.Item className="thelast">
+                        </ListGroup.Item>
+                    </ListGroup>
 
                 </Col>
 
-                <Col sm={7} style={{margin:0,padding:0}}>
+                <Col sm={8} style={{margin:0,padding:0}}>
 
-                <Tab.Content className="thebrief">
+                <Tab.Content className>
                     <Tab.Pane eventKey="#link1">
-                    <p>good morning</p>
+                        <nav id="pl__container">
+                                <a class="pl__all" href="/docker-intro/">
+                                    <span class="pl__circle"></span>
+                                    <span class="pl__title">Docker 简介</span>
+                                    <span class="pl__date">Feb 2016</span>
+                                </a>
+                        </nav>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="#link2">
-                    <p>good afternoon</p>
+                        <a className='thetitle JavaScript'>JavaScript</a>
+                        <a className='thetitle JavaScript'>one</a>
+                        <a className='thetitle JavaScript'>one</a>
+                        <a className='thetitle JavaScript'>one</a>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="#link3">
-                    <p>good evening</p>
+                        <a className='thetitle ReactRedux'>ReactRedux</a>  
+                        <a className='thetitle JavaScript'>one</a>
+                        <a className='thetitle JavaScript'>one</a> 
+                        <a className='thetitle JavaScript'>one</a>
                     </Tab.Pane>
+                    
                 </Tab.Content>
 
                 </Col>

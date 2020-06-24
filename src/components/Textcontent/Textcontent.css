@@ -1,3 +1,5 @@
 .Textcontent {
-    background-color: lightgoldenrodyellow;
+    background: white;
+    display:block;
+    margin:50px;
 }
