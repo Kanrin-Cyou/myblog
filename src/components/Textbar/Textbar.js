@@ -28,7 +28,7 @@ const Textbar = () => {
 
                 <Col sm={8} style={{margin:0,padding:0}}>
 
-                <Tab.Content className>
+                <Tab.Content>
                         <Tab.Pane eventKey="#link1">
                             <nav id="pl__container">
                                     <a className="pl__all" href="/">
